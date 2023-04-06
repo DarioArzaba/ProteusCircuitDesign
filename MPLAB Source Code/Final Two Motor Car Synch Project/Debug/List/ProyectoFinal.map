@@ -1,0 +1,50 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+cursor                                                                            0x0300       1
+Cadena                                                                            0x0301      17
+i                                                                                 0x0312       1
+random_object                                                                     0x0313       1
+hs                                                                                0x0314       2
+score                                                                             0x0316       2
+allow_jump                                                                        0x0318       2
+restart                                                                           0x031A       2
+jumping                                                                           0x031C       2
+dino_l                                                                            0x031E       8
+dino_r                                                                            0x0326       8
+cactus_small                                                                      0x032E       8
+cactus_big                                                                        0x0336       8
+world                                                                             0x033E      32
+_seed (stdlib.lib)                                                                0x035E       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+SetupLCD                                                                          0x000B5     43
+PulseEn                                                                           0x000E0      3
+SendDataBitsLCD                                                                   0x000E3     24
+WriteComandLCD                                                                    0x000FB      7
+CharLCD                                                                           0x00102      7
+StringLCD                                                                         0x00109     13
+StringLCDVar                                                                      0x00116     10
+EraseLCD                                                                          0x00120      3
+MoveCursor                                                                        0x00123     36
+CreateChar                                                                        0x00147     24
+scroll_world                                                                      0x0015F    130
+update_world                                                                      0x001E1    146
+main                                                                              0x00273    100
+put_buff_G100                                                                     0x002D7     43
+_print_G100                                                                       0x00302    331
+sprintf                                                                           0x0044D     49
+srand                                                                             0x0047E      9
+rand                                                                              0x00487     21
+strlen                                                                            0x0049C     12
+strlenf                                                                           0x004A8     13
