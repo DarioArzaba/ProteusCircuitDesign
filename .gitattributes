@@ -1,0 +1,5 @@
+*.asm linguist-detectable=true
+*.c linguist-detectable=true
+*.cof linguist-detectable=true
+*.hex linguist-detectable=true
+*.h linguist-detectable=true
